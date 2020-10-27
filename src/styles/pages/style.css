@@ -1,0 +1,119 @@
+
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+}
+
+#home {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* =================== SELECT ================ */
+
+#select {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #cccccc;
+    vertical-align: middle;
+    text-align: left;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    
+  }
+  #select.placeholder {
+    position: absolute;
+    display: block;
+    background-color: #4f4f4f;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #select.placeholder:after {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-family: "FontAwesome";
+    content: "\f078";
+    z-index: 10;
+  }
+  #select.is-open.placeholder:after {
+    content: "\f077";
+  }
+  #select.is-open ul {
+    display: block;
+  }
+  #select.select--white.placeholder {
+    background: #fff;
+  }
+  #select.select--white .placeholder:hover {
+    background: #fafafa;
+  }
+  #select ul {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+    z-index: 100;
+    max-height: 120px;
+  }
+  #select ul li {
+    display: block;
+    text-align: left;
+    padding: 0.8em 1em 0.8em 1em;
+    cursor: pointer;
+  }
+  #select ul li:hover {
+    background: #4ebbf0;
+    color: #fff;
+  }
+  
+/* ================= INICIO =============*/
+
+#inicio {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#inicio.iniciar-btn {
+  font-family: Hack, monospace;
+    background: #d3d3d3;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+    min-width: 250px;
+
+}
+
