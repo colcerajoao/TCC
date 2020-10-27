@@ -5,4 +5,6 @@
 3 - Instalar por ultimo extensão -- choco install vscode
 
  = = = = VIA DÚVIDA = = = = =
+ 
+ 
  Seguir tutorial: https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329
